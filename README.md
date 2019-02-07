@@ -1,11 +1,11 @@
 # dotfiles
-Reasonable, moderately-minimal defaults for a dev machine on macOS
+Sane, moderately-minimal defaults for a dev machine on macOS
 
 ## Software Installation
 
 The following suggestions form a base for ergonomic software development. The tools under the "required" header are either so widely used (Homebrew) that you can't avoid them, or necessary for day-to-day collaboration.
 
-Tools under the "recommended" header are *highly* recommended especially if you're not familiar with what they do. They're all easy to learn, require little configuration, and immediately increase your productivity. 
+Tools under the "recommended" header are *highly* recommended -- especially if you're not familiar with what they do. They're all easy to learn, require little configuration, and immediately increase your productivity. 
 
 If you know of better tools (please share if so!) or have spent lots of time customizing your own tooling, you're welcome to use your own day-to-day or customize our suggestions. However, the expectation is all engineers are comfortable with the following defaults.
 
