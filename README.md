@@ -34,3 +34,7 @@ For example, it's totally acceptable to use a JetBrains IDE (we're happy to pay 
   - [Optional] Go to Preferences > Profiles > Keys and set up a Hotkey Window as Option-Space
 - ShiftIt (https://github.com/fikovnik/ShiftIt) OR Spectacle (https://www.spectacleapp.com)
 - FlyCut (https://github.com/TermiT/Flycut)
+
+## Config files
+
+- .gitconfig
