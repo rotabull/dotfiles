@@ -18,8 +18,6 @@ For example, you're welcome to use a JetBrains IDE (we're happy to pay for it to
   - Mobile app as well on your phone
 - VSCode (https://code.visualstudio.com/)
   - For Rotabull development: ElixirLS, Prettier
-  - For Python development: Python
-  - For remote pairing: VS Live Share
   
 ### (Highly) Recommended
 
@@ -32,8 +30,8 @@ For example, you're welcome to use a JetBrains IDE (we're happy to pay for it to
   - Go to Preferences > Profiles > General > Working Directory and select "Reuse previous session's directory"
   - Go to Preferences > Profiles > Text and choose a Powerline-enabled font
   - [Optional] Go to Preferences > Profiles > Keys and set up a Hotkey Window as Option-Space
-- ShiftIt (https://github.com/fikovnik/ShiftIt) OR Spectacle (https://www.spectacleapp.com)
-- FlyCut (https://github.com/TermiT/Flycut)
+- Rectangle (https://rectangleapp.com/)
+- Maccy (https://maccy.app/)
 
 ## Config files
 
