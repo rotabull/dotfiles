@@ -3,7 +3,7 @@ Minimal defaults and tools for a dev machine on macOS
 
 ## Software Installation
 
-The following suggestions form a base for productive development. The tools under the "Default" header are used for day-to-day collaboration, even if there are other tools you typically prefer. Tools under the "recommended" header are highly encouraged -- especially if you're not familiar with what they do. They're all easy to learn, require little configuration, and immediately increase your productivity. 
+The following suggestions form a base for productive development. The tools under the "Default" header are used for day-to-day collaboration, even if there are other tools you typically prefer. Tools under the "recommended" header are highly encouraged, especially if you're not familiar with what they do. They're all easy to learn and a few days later, you'll forget what it's like to use a computer without them!
 
 If you know of better tools (please feel free to share if so!) or have spent lots of time customizing your own tooling, you're welcome to use those. However, the expectation is engineers are comfortable with the following defaults.
 
