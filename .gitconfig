@@ -1,44 +1,57 @@
 [alias]
-  co = checkout
-  br = branch
-  cm = commit
-  st = status
-  rb = rebase
-  push--fwl = push --force-with-lease
-  llog = log --date=local
-  flog = log --pretty=fuller --decorate
-  lol = log --graph --decorate --oneline
-  lola = log --graph --decorate --oneline --all --date-order
-  blog = log origin/master... --left-right
-  ds = diff --staged
-  fixup = commit --fixup
-  squash = commit --squash
-  unstage = reset HEAD
-  rum = rebase master@{u}
-  fpl = !git fetch --prune && git lola
-
+    co = checkout
+    br = branch
+    cm = commit -m
+    st = status
+    rb = rebase
+    push--fwl = push --force-with-lease
+    llog = log --date=local
+    flog = log --pretty=fuller --decorate
+    lol = log --graph --pretty=format:'%C(auto)%h%d%Creset %C(cyan)(%cd)%Creset %C(magenta)%an%Creset %s' --date=short
+    lola = log --graph --all --pretty=format:'%C(auto)%h%d%Creset %C(cyan)(%cd)%Creset %C(magenta)%an%Creset %s' --date=short
+    blog = log origin/master... --left-right
+    ds = diff --staged
+    fixup = commit --fixup
+    squash = commit --squash
+    unstage = reset HEAD
+    rum = rebase master@{u}
+    # https://stackoverflow.com/a/35049625
+    cmp = "!f() { git commit -m \"$@\" && git push; }; f"
+    # https://stackoverflow.com/a/44494345
+    recent = ! git branch --sort=-committerdate --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:short)%(color:reset))' --color=always | head -n10
+[user]
+    name = YOURNAMEHERE
+    email = youremail@rotabull.com
 [core]
-  editor = vim
-
+    editor = vim
+    pager = delta
 [color]
-  ui = auto
-  branch = auto
-  interactive = auto
-  status = auto
-
+    ui = auto
+    branch = auto
+    interactive = auto
+    status = auto
 [push]
-  default = simple
+    default = simple
 [color "diff"]
-  meta = yellow bold
+    meta = yellow bold
   commit = green bold
   frag = magenta bold
   old = red bold
   new = green bold
   whitespace = red reverse
 [color "diff-highlight"]
-  oldNormal = "red bold"
-  oldHighlight = "red bold 52"
-  newNormal = "green bold"
-  newHighlight = "green bold 22"
+    oldNormal = "red bold"
+    oldHighlight = "red bold 52"
+    newNormal = "green bold"
+    newHighlight = "green bold 22"
 [merge]
-  tool = kdiff3
+    tool = kdiff3
+
+[delta]
+    plus-color = "#012800"
+    minus-color = "#340001"
+    syntax-theme = Monokai Extended
+    side-by-side = true
+
+[interactive]
+    diffFilter = delta --color-only
