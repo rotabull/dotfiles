@@ -15,15 +15,17 @@ For example, you're welcome to request a JetBrains IDE, but because VSCode is ou
   - For Rotabull development: ElixirLS, Prettier
 - **Database GUI**: TablePlus (https://tableplus.com/)
   - Ask your manager for a License Key
+- **Package Manager**: Homebrew (https://brew.sh/)
   
 ### (Highly) Recommended
 
-- **Shell**: Fish Shell (https://fishshell.com/)
+- **Shell**: Fish Shell (https://fishshell.com/ -- install via Homebrew)
+  - To set up Fish to work with Homebrew, run `fish_add_path /opt/homebrew/bin`
   - Oh My Fish plugin manager (https://github.com/oh-my-fish/oh-my-fish)
   - bobthefish theme (https://github.com/oh-my-fish/theme-bobthefish)
   - Nerd Fonts (https://github.com/ryanoasis/nerd-fonts#option-4-homebrew-fonts)
 - **Terminal Emulator**: iTerm2 (https://www.iterm2.com/index.html)
-  - Go to Preferences > Profiles > General > Command and set the command to `/usr/local/bin/fish`
+  - Go to Preferences > Profiles > General > Command and set the command to `/opt/homebrew/bin/fish`
   - Go to Preferences > Profiles > General > Working Directory and select "Reuse previous session's directory"
   - Go to Preferences > Profiles > Text and choose a Powerline-enabled font
   - [Optional] Go to Preferences > Profiles > Keys and set up a Hotkey Window as Option-Space
